@@ -225,11 +225,11 @@ caption {
   color: orange;
   display: inline-block;
   font-weight: bold;
-  line-height: 1em;
+  line-height: 0.8em;
   margin-right: 15px;
   text-align: center;
-  width: 1em;
-  margin-left: 100px;
+  width: 0.8em;
+  margin-left: 30px;
 }
 
 .nume3 {
@@ -241,22 +241,76 @@ caption {
   color: #39a6a3;
   display: inline-block;
   font-weight: bold;
-  line-height: 1em;
+  line-height: 0.8em;
   margin-right: 15px;
   text-align: center;
-  width: 1em;
-  margin-left: 100px;
+  width: 0.8em;
+  margin-left: 30px;
 }
 
+.color1 {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 25px;
+  width: 10%%;
+}
 .porcentaje {
   width: 20%;
-  margin-left: 25%;
+  margin-left: 30%;
   float: right;
   position: relative;
   text-align: right;
   padding-top:25px;
+  padding-right: 25px;
+}
+
+.porcentajePB {
+  width: 20%;
+  margin-left: 30%;
+  float: right;
+  position: relative;
+  padding-top:25px;
 }
 
 .progress {
-  height: 10px;
+  height: 7px;
+  margin: auto;
+}
+
+.sep {
+  border-left: 1px solid lightgray;
+  margin-left: 20px;
+  margin-top: 8px;
+  color: black;
+  width: 70%
+}
+
+.puntos {
+  display: flex;
+  margin:auto;
+}
+
+.bi-three-dots-vertical {
+  vertical-align: middle;
+  margin: auto;
+  color: gray;
+}
+
+.card {
+  box-shadow: none;
+  outline: none;
+  border-style: none;
+}
+
+.dismissBottomBorder {
+  box-shadow: none;
+  outline: none;
+  border-style: none;
+  margin-top: -15px;
+}
+
+#accordion {
+  box-shadow: none;
+  outline: none;
+  border-style: none;
 }
